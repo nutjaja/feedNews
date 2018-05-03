@@ -1,6 +1,6 @@
 <template>
   <div class="text-xs-center">
-    <center color="blue"><h1>จัดการหัวข้อข่าว / เพิ่มรายการข่าว </h1> </center>  <br>
+    <center ><h1>จัดการหัวข้อข่าว / เพิ่มรายการข่าว </h1> </center>  <br>
   <v-container fluid>
     <v-layout row>
       <v-flex xs4>
