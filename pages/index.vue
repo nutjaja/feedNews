@@ -4,7 +4,9 @@
   <v-container fluid>
     <v-layout row>
       <v-flex xs4>
+        <font color = "blue">
         <v-subheader>NEWS</v-subheader>
+        </font>
       </v-flex>
       <v-flex xs8>
         <v-text-field
