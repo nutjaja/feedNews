@@ -63,7 +63,8 @@
       </v-flex>
     </v-layout>
   </v-container> 
-  <v-btn round color="primary" dark>Rounded Button</v-btn>
+  <v-btn round color="primary" dark>บันทึก</v-btn>
+  <v-btn round color="primary" dark>ยกเลิก</v-btn>
   </div>
 </template>
 <script>
