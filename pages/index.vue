@@ -4,15 +4,13 @@
   <v-container fluid>
     <v-layout row>
       <v-flex xs4>
-        <li class="big" :class='{red}'>
         <v-subheader>NEWS</v-subheader>
-        </li>
       </v-flex>
       <v-flex xs8>
         <v-text-field
           name="input-1"
           label="จัดการหัวข้อข่าว"
-          id="testing"
+          id="news"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -22,9 +20,9 @@
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-1"
+          name="input-2"
           label="ระบุหัวข้อข่าว"
-          id="testing"
+          id="title"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -34,9 +32,9 @@
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-1"
+          name="input-3"
           label="รายละเอียดข่าว"
-          id="testing"
+          id="description"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -46,9 +44,9 @@
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-1"
+          name="input-4"
           label=" "
-          id="testing"
+          id="link"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -58,9 +56,9 @@
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-1"
+          name="input-5"
           label=" "
-          id="testing"
+          id="mask"
         ></v-text-field>
       </v-flex>
     </v-layout>
