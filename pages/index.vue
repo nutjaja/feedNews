@@ -50,6 +50,18 @@
         ></v-text-field>
       </v-flex>
     </v-layout>
+    <v-layout row>
+      <v-flex xs4>
+        <v-subheader>หมายเหตุ</v-subheader>
+      </v-flex>
+      <v-flex xs8>
+        <v-text-field
+          name="input-1"
+          label=" "
+          id="testing"
+        ></v-text-field>
+      </v-flex>
+    </v-layout>
   </v-container> 
   </div>
 </template>
