@@ -4,7 +4,7 @@
   <v-container fluid>
     <v-layout row>
       <v-flex xs4>
-        <li class="big" :class="{red}">
+        <li class="big" :class='{red}'>
         <v-subheader>NEWS</v-subheader>
         </li>
       </v-flex>
