@@ -4,51 +4,49 @@
   <v-container fluid>
     <v-layout row>
       <v-flex xs4>
-        <v-subheader>Normal with hint text/label</v-subheader>
+        <v-subheader>NEWS</v-subheader>
       </v-flex>
       <v-flex xs8>
         <v-text-field
           name="input-1"
-          label="Label Text"
+          label="จัดการหัวข้อข่าว"
           id="testing"
         ></v-text-field>
       </v-flex>
     </v-layout>
     <v-layout row>
       <v-flex xs4>
-        <v-subheader>Focus</v-subheader>
+        <v-subheader>หัวข้อข่าว</v-subheader>
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-2"
-          label="Label Text"
-          value="Input text"
-          class="input-group--focused"
+          name="input-1"
+          label="ระบุหัวข้อข่าว"
+          id="testing"
         ></v-text-field>
       </v-flex>
     </v-layout>
     <v-layout row>
       <v-flex xs4>
-        <v-subheader>Normal with input text + label</v-subheader>
+        <v-subheader>รายละเอียดข่าว</v-subheader>
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-3"
-          label="Label Text"
-          value="Input text"
+          name="input-1"
+          label="รายละเอียดข่าว"
+          id="testing"
         ></v-text-field>
       </v-flex>
     </v-layout>
     <v-layout row>
       <v-flex xs4>
-        <v-subheader>Disabled</v-subheader>
+        <v-subheader>ลิงค์</v-subheader>
       </v-flex>
       <v-flex xs8>
         <v-text-field
-          name="input-3"
-          label="Label Text"
-          value="Input text"
-          disabled
+          name="input-1"
+          label=" "
+          id="testing"
         ></v-text-field>
       </v-flex>
     </v-layout>
