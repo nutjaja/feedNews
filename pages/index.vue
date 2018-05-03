@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Test Feed News by Aod</h1> 
+    <center><h1>จัดการหัวข้อข่าว / เพิ่มรายการข่าว </h1> </center>  <br>
   </div>
 </template>
 <script>
