@@ -1,6 +1,5 @@
 <template>
   <div class="text-xs-center">
-     <v-btn round color="primary" dark>Rounded Button</v-btn>
     <center><h1>จัดการหัวข้อข่าว / เพิ่มรายการข่าว </h1> </center>  <br>
   <v-container fluid>
     <v-layout row>
@@ -64,6 +63,7 @@
       </v-flex>
     </v-layout>
   </v-container> 
+  <v-btn round color="primary" dark>Rounded Button</v-btn>
   </div>
 </template>
 <script>
