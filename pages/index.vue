@@ -3,7 +3,8 @@
     <center><h1>จัดการหัวข้อข่าว / เพิ่มรายการข่าว </h1> </center>  <br>
     <input type="text" v-model="code"> <br>
     <input type="text" v-model="name">
-    <button @click="addstudent">ADD</button>
+    <button @click="addNews">ADD</button> <br>
+    <button @click="CANCLE">CANCLE</button>
   </div>
 </template>
 <script>
