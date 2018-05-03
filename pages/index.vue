@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Feed News</h1> 
+    <h1>Test Feed News by Aod</h1> 
   </div>
 </template>
 <script>
