@@ -7,6 +7,7 @@ socket._topics = {}
 
 socket.on('connect', () => {
   console.log('socket ready')
+  socket.emit('signin', {user: config.socket.user, pass: config.socket.pass})
   Object.keys(socket._topics).forEach(topic => socket.subscribe(topic))
 })
 

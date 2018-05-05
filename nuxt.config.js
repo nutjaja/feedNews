@@ -21,7 +21,7 @@ module.exports = {
     '~/plugins/socket',
   ],
   proxy: {
-    '/api': 'http://127.0.0.1:7001',
+    '/api': 'http://127.0.0.1:7000',
     ws: true,
   },
   modules: [
